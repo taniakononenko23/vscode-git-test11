@@ -17,3 +17,7 @@ ul li[data-description~="even"] {
   font-size: 24px;
   background-color: grey;
 }
+span[lang|="en"] {
+  font-weight: bold;
+  font-size: 28px;
+}
