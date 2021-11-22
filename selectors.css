@@ -1,0 +1,19 @@
+a[href^="http"] {
+  color: green;
+}
+[lang|="en-gb"] {
+  font-size: 28px;
+}
+img {
+  margin-left: 50px;
+}
+[alt="Pollution"] {
+  border: 5px dashed red;
+}
+ul li[data-description*="even"] {
+  font-size: 24px;
+}
+ul li[data-description~="even"] {
+  font-size: 24px;
+  background-color: grey;
+}
